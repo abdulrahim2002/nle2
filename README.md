@@ -25,3 +25,12 @@ file: `task2.pynb`
     if misclassified, add it to the training data to update the model.
 - We report the classifier's accuracy on a held-out test set every 100 iterations
     and analyze the performance trend over time.
+
+
+### EDA
+
+file: `eda.ipynb`
+
+- In this file, we perform exploratory data analysis (EDA) on the IMDB reviews dataset.
+- For each N-gram type, we compute frequency mappings, sort by frequency, and plot
+    histograms of the frequency distributions on a log scale to visualize word/N-gram usage patterns.
