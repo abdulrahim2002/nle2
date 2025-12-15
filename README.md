@@ -20,7 +20,7 @@ file: `task2.pynb`
     reviews.
 - Initially we train the classifier on 5,000 original reviews from the corpus and
     5,000 artificially generated reviews using the N-grams model from Task 1.
-- For evaluation, we run a 10,000-iteration online learning loop: randomly sample
+- For evaluation, we run a 5,000-iteration online learning loop: randomly sample
     an unseen original review or generate a new review, classify it, and
     if misclassified, add it to the training data to update the model.
 - We report the classifier's accuracy on a held-out test set every 100 iterations
