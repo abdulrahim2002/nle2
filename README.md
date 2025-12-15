@@ -31,6 +31,5 @@ file: `task2.pynb`
 
 file: `eda.ipynb`
 
-- In this file, we perform exploratory data analysis (EDA) on the IMDB reviews dataset.
 - For each N-gram type, we compute frequency mappings, sort by frequency, and plot
     histograms of the frequency distributions on a log scale to visualize word/N-gram usage patterns.
